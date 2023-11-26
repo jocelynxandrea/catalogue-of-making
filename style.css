@@ -1,0 +1,195 @@
+*{
+    font-family: 'Adamina', serif;
+    max-width: 100%;
+    box-sizing: border-box
+}
+
+h{
+    font-size: 400%;
+    color: #3461FF;
+}
+
+h1{
+    font-size: 200%;
+    color: #3461FF;
+}
+
+h2{
+    font-size: 120%;
+    margin: 0;
+}
+p{
+    margin-top: 0;
+    font-size: 90%;
+    color: #929292;
+}
+
+figcaption {
+    font-size: 70%;
+    color: #3461FF;
+}
+
+.collecting_main {
+    background-image: url(example.png) ;
+    background-size: 150%;
+    width: 100%;
+    height: 23rem;
+    padding-top: 5rem;
+}
+
+.nav{
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: #fff; 
+    z-index: 1000;
+    overflow: hidden;
+    text-align: center;
+    border-bottom: 1px solid #929292;
+    
+    /* box-shadow: 0 1.5px 3px 0 rgba(0,0,0,.2); */
+
+}
+
+.this_nav p{
+    border-bottom: 1px solid #3461FF;
+    color: #3461FF;
+}
+
+.nav p {
+    display: inline;
+}
+
+.nav_left{
+    display: flex;
+    gap: 1rem;
+}
+
+.nav_right p{
+    overflow: auto;
+    text-align: right;
+}
+
+.main li{
+    list-style-type:none;
+    
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+main {
+    padding: 0rem 1rem 1rem 1rem;
+}
+
+section {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #929292;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.grid-container-6{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.grid-container-line-6{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 0.5px solid #929292;
+
+}
+
+.grid-container-line{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 0.5px solid #929292;
+}
+
+.content img{
+    max-width: 100%;
+    border: 1px solid #929292 ;
+
+}
+
+
+.row {
+    display: flex;
+    gap: 2rem;
+}
+
+.column_left {
+    width: 25%;
+}
+
+.column_right {
+    width: 75%;
+}
+
+
+
+
+a {
+    color: inherit;
+    animation: 6s highlight-clickable;
+    animation-iteration-count: 1
+}
+
+a:link {
+    text-decoration: none;
+}
+
+main a:hover,
+main a:focus {
+    display: block;
+    color: #3461FF;
+    transform: translate(0.25em, 0);
+}
+
+nav a:hover,
+nav a:focus {
+    color: #3461FF;
+}
+
+
+.buttons {
+    position: absolute;
+    bottom: 0px;
+    position: sticky;
+    background-color: none;
+    display: flex;
+    float: right;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+
+}
+
+.bottom {
+    background-color: none;
+}
+
+.bottom p{
+    color: #3461FF;
+}
+
